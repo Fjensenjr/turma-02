@@ -1,0 +1,11 @@
+- Quais soluções IaaS, PaaS e SaaS utilizam?
+Hoje utilizados todos os três modelos.
+IaaS: Amazon Web Services (AWS), Google Cloud Plataform (GCP), VPC, AWS EC2, GCP VM Instance.
+PaaS: Lambda, CloudFuction, EKS, GKE, ECS, RDS, Amazon Redshift, Amazon API gateway.
+SaaS: OnePlataform, Redis, Grafana, Jira, CleanCloud, Prometheus, Consul, Slack, Github.
+
+- Seu armazenamento é distribuído?
+Sim. Utilizamos os serviços S3 e CloudStorage, que usamos como backup distribuido para garantir a integridade das aplicações e do ambiente.  
+
+- Você utiliza containers em sua empresa?
+Sim! Os containers estão distribuidos entre Virginia (us-east-1) e São Paulo (sa-east-1) na AWS e South Carolina (us-east1) na GCP.   
